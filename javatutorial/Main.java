@@ -43,7 +43,7 @@ public class Main {
 
          // we can also combine variables
          String name2 = "John";
-         System.out.println("Hello " + name);
+         System.out.println("Hello " + name2);
 
          // or we could do this as well
          String firstname = "John";
@@ -88,6 +88,6 @@ public class Main {
 
          // safer to use double for most calculations
 
-         
+
     }
 }
