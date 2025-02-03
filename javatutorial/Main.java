@@ -59,5 +59,35 @@ public class Main {
          int a, b, c;
          a = b = c = 50;
          System.out.println(a + b + c);
+
+         // byte stores from -128 to 127
+         // saves storage
+
+         byte myNums = 100;
+         System.out.println(myNums);
+
+         // short -> -32768 to 32767
+         short anotherNum = 5000;
+         System.out.println(anotherNum);
+
+         // int is the preferred data type
+         int someNum = 10000;
+         System.out.println(someNum);
+
+         // long stores a lot more than int
+         long longNumber = 15000000;
+         System.out.println(longNumber);
+
+         // floating point
+         float floatingNum = 5.75f;
+         System.out.println(floatingNum);
+
+         // double 
+         double doubleNum = 2.65d;
+         System.out.println(doubleNum);
+
+         // safer to use double for most calculations
+
+         
     }
 }
