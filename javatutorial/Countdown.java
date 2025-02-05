@@ -4,7 +4,7 @@ public class Countdown {
 
         while (countdown > 0) {
             System.out.println(countdown);
-            i--;
+            countdown--;
         }
 
         System.out.println("Weeeeeeee!!!!");
