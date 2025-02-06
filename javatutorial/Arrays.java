@@ -1,13 +1,15 @@
 public class Arrays {
     public static void main(String[] args) {
         // declaring an array
-        String[] array;
+        // String[] array;
 
         // storing values in an array
         String[] cars = {"Volvo", "BMW", "Ford", "Porsche"};
+        System.out.println(cars);
 
         // to create an array of integers, we do this
         int[] myNum = {1, 2, 3, 4, 5};
+        System.out.println(myNum);
 
         // here is how to access elements of an array
         String[] fruits = {"Banana", "Kiwi", "Watermelon"};
@@ -30,7 +32,7 @@ public class Arrays {
         // looping through an array using for each
         String[] shoppinglist = {"Milk", "Eggs", "Bread"};
 
-        for (string i : shoppinglist) {
+        for (String i : shoppinglist) {
             System.out.println(i);
         }
     }
